@@ -26,6 +26,7 @@
 .power-pellet {
 	background-color: #058ed9;
 	border-radius: 10px;
+	transform: scale(0.7);
 }
 
 .blinky {
