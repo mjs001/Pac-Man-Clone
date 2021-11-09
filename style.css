@@ -1,0 +1,107 @@
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 560px;
+	height: 560px;
+	border: solid black;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.pac-dot {
+	background-color: green;
+	border: 5px solid white;
+	box-sizing: border-box;
+}
+
+.wall {
+	background-color: #483d3f;
+}
+
+.power-pellet {
+	background-color: #058ed9;
+	border-radius: 10px;
+}
+
+.blinky {
+	background-color: #7dbdd9;
+	border: 0px;
+	z-index: 2;
+}
+
+.pinky {
+	background-color: #447604;
+	border: 0px;
+	z-index: 2;
+}
+
+.inky {
+	background-color: #88d498;
+	border: 0px;
+	z-index: 2;
+}
+
+.clyde {
+	background-color: #ff595e;
+	border: 0px;
+	z-index: 2;
+}
+
+.scared-ghost {
+	background-color: #ffca3a;
+	border: 0px;
+}
+.pac-man {
+	background-color: #9fffcb;
+	border-radius: 10px;
+	z-index: 3;
+}
+
+.score {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+#score {
+	margin-left: 5px;
+	color: #ce5374;
+}
+.title {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+
+	color: rgba(245, 35, 35, 0.6);
+	text-shadow: 2px 8px 6px rgba(133, 133, 133, 0.2),
+		0px -5px 35px rgba(24, 4, 4, 0.3);
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.small {
+	color: rgba(24, 4, 4, 0.3);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.link {
+	color: rgb(32, 120, 221);
+	text-decoration: none;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-left: 5px;
+}
+.link:hover {
+	color: rgb(24, 89, 163);
+	text-decoration: underline;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-left: 5px;
+}
